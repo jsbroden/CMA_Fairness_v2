@@ -162,6 +162,9 @@ cython_debug/
 # Ignore large ACS PUMS data files
 data/**/psam_p*.csv
 
+# Data files
+data/
+
 /.quarto/
 .Rproj.user
 .Rhistory
