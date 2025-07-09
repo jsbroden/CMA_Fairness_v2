@@ -305,8 +305,8 @@ class UniverseAnalysis:
         fairness_grouping = sub_universe["eval_fairness_grouping"]
         if fairness_grouping == "majority-minority":
             fairness_group_column = "majmin"
-        elif fairness_grouping == "race-all":
-            fairness_group_column = "RAC1P"
+        elif fairness_grouping == "nationality-all":
+            fairness_group_column = "maxdeutsch1"
 
         y_pred = predict_w_threshold(y_pred_prob, threshold)
 

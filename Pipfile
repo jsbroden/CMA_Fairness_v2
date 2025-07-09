@@ -20,13 +20,13 @@ numpy = "==1.23"
 pandas = "==1.4.4"
 smac = "*"
 pip = "*"
-install = "*"
 configspace = "*"
 fairness-multiverse = {editable = true, path = "./fairness_multiverse"}
+ipykernel = "*"
 
 [dev-packages]
 ipykernel = "*"
 black = "*"
 
 [requires]
-python_version = "3.8"
+python_version = "3.11"
