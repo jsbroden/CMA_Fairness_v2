@@ -7,7 +7,8 @@ from typing import Optional
 import pandas as pd
 
 from pathlib import Path
-from smac.configspace import ConfigurationSpace
+#from smac.configspace import ConfigurationSpace
+from ConfigSpace import ConfigurationSpace
 from ConfigSpace.hyperparameters import CategoricalHyperparameter
 from sklearn.preprocessing import OrdinalEncoder
 
