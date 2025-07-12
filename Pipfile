@@ -15,13 +15,15 @@ eli5 = "*"
 nbstripout = "*"
 notebook = "*"
 tqdm = "*"
-fanova = "*"
 numpy = "==1.23"
 pandas = "==1.4.4"
 smac = "*"
 pip = "*"
-configspace = "*"
 fairness-multiverse = {editable = true, path = "./fairness_multiverse"}
+fanova = "==2.0.19"
+pyrfr = "==0.8.3"
+configspace = "*"
+ipython = "*"
 ipykernel = "*"
 
 [dev-packages]
@@ -29,4 +31,4 @@ ipykernel = "*"
 black = "*"
 
 [requires]
-python_version = "3.11"
+python_version = "3.9"
