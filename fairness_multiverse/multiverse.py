@@ -289,5 +289,5 @@ def execute_notebook_via_api(
         output_path, 
         parameters=parameters, 
         progress_bar=False,
-        kernel_name="fairml-multiverse"
+        kernel_name="cma_fair_env"
     )
