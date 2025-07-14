@@ -1,0 +1,16 @@
+,level_0,level_1,level_2,level_3,individual importance,total importance,individual std,total std
+1,sett_exclude_features,,,,0.6103444563779364,0.6103444563779364,0.46857947750077605,0.46857947750077605
+0,sett_cutoff,,,,0.3614910590677116,0.3614910590677116,0.46061466705383614,0.46061466705383614
+4,sett_cutoff,sett_exclude_features,,,0.028164484554354885,1.0000000000000029,0.09340287653337269,4.830001843860126e-15
+2,sett_exclude_subgroups,,,,0.0,0.0,0.0,0.0
+3,sett_model,,,,0.0,0.0,0.0,0.0
+5,sett_cutoff,sett_exclude_subgroups,,,0.0,0.3614910590677116,0.0,0.46061466705383614
+6,sett_cutoff,sett_model,,,0.0,0.3614910590677116,0.0,0.46061466705383614
+7,sett_exclude_features,sett_exclude_subgroups,,,0.0,0.6103444563779364,0.0,0.46857947750077605
+8,sett_exclude_features,sett_model,,,0.0,0.6103444563779364,0.0,0.46857947750077605
+9,sett_exclude_subgroups,sett_model,,,0.0,0.0,0.0,0.0
+10,sett_cutoff,sett_exclude_features,sett_exclude_subgroups,,0.0,1.0000000000000029,0.0,4.830001843860126e-15
+11,sett_cutoff,sett_exclude_features,sett_model,,0.0,1.0000000000000029,0.0,4.830001843860126e-15
+12,sett_cutoff,sett_exclude_subgroups,sett_model,,0.0,0.3614910590677116,0.0,0.46061466705383614
+13,sett_exclude_features,sett_exclude_subgroups,sett_model,,0.0,0.6103444563779364,0.0,0.46857947750077605
+14,sett_cutoff,sett_exclude_features,sett_exclude_subgroups,sett_model,0.0,1.0000000000000029,0.0,4.830001843860126e-15
