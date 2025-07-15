@@ -44,7 +44,7 @@ multiverse_analysis = MultiverseAnalysis(
     dimensions={
         # "scale": ["scale", "do-not-scale"],
         # "encode_categorical": ["ordinal", "one-hot"],
-        "model": ["logreg", "rf", "gbm", "elasticnet"],
+        "model": ["logreg", "penalized_logreg", "rf", "gbm", "elasticnet"],
         "exclude_features": [
             "none",
             "nationality",
