@@ -1,0 +1,2 @@
+universe_id,universe_model,universe_exclude_features,universe_exclude_subgroups,q_hat,coverage,avg_size
+ac61dc4975b4c6e37c44b92d00e83325,penalized_logreg,none,keep-all,0.673671679915707,0.9121614089845056,1.2037676959090402
