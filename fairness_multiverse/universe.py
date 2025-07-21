@@ -409,7 +409,7 @@ class UniverseAnalysis:
         return generate_multiverse_grid(universe_all_lists)
 
     def generate_final_output(
-        self, y_pred_prob, y_test, org_test, filter_data, save=True
+        self, y_pred_prob, y_test, org_test, filter_data, cp_metrics_df, save=True
     ) -> pd.DataFrame:
         """
         Generate the final output for the given universe settings.
@@ -452,5 +452,10 @@ class UniverseAnalysis:
             target_dir.mkdir(parents=True, exist_ok=True)
             filename = f"d_{str(self.run_no)}_{self.universe_id}.csv"
             final_output.to_csv(target_dir / filename, index=False)
+
+            cp_dir = self.output_dir / "runs" / str(self.run_no) / "cp_metrics"
++           cp_dir.mkdir(parents=True, exist_ok=True)
++           cp_filename = f"cp_{self.run_no}_{self.universe_id}.csv"
++           cp_metrics_df.to_csv(cp_dir / cp_filename, index=False)
 
         return final_output
