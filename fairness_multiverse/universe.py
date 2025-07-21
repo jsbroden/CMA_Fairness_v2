@@ -454,8 +454,8 @@ class UniverseAnalysis:
             final_output.to_csv(target_dir / filename, index=False)
 
             cp_dir = self.output_dir / "runs" / str(self.run_no) / "cp_metrics"
-+           cp_dir.mkdir(parents=True, exist_ok=True)
-+           cp_filename = f"cp_{self.run_no}_{self.universe_id}.csv"
-+           cp_metrics_df.to_csv(cp_dir / cp_filename, index=False)
+            cp_dir.mkdir(parents=True, exist_ok=True)
+            cp_filename = f"cp_{self.run_no}_{self.universe_id}.csv"
+            cp_metrics_df.to_csv(cp_dir / cp_filename, index=False)
 
         return final_output
