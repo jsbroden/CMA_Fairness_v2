@@ -1,5 +1,6 @@
 [
   {
+    "scale": "scale",
     "model": "logreg",
     "exclude_features": "none",
     "exclude_subgroups": "keep-all",
@@ -13,6 +14,7 @@
     ]
   },
   {
+    "scale": "scale",
     "model": "logreg",
     "exclude_features": "none",
     "exclude_subgroups": "drop-non-german",
@@ -26,6 +28,7 @@
     ]
   },
   {
+    "scale": "scale",
     "model": "logreg",
     "exclude_features": "nationality",
     "exclude_subgroups": "keep-all",
@@ -39,6 +42,7 @@
     ]
   },
   {
+    "scale": "scale",
     "model": "logreg",
     "exclude_features": "nationality",
     "exclude_subgroups": "drop-non-german",
@@ -52,6 +56,7 @@
     ]
   },
   {
+    "scale": "scale",
     "model": "logreg",
     "exclude_features": "sex",
     "exclude_subgroups": "keep-all",
@@ -65,6 +70,7 @@
     ]
   },
   {
+    "scale": "scale",
     "model": "logreg",
     "exclude_features": "sex",
     "exclude_subgroups": "drop-non-german",
@@ -78,6 +84,7 @@
     ]
   },
   {
+    "scale": "scale",
     "model": "logreg",
     "exclude_features": "nationality-sex",
     "exclude_subgroups": "keep-all",
@@ -91,6 +98,7 @@
     ]
   },
   {
+    "scale": "scale",
     "model": "logreg",
     "exclude_features": "nationality-sex",
     "exclude_subgroups": "drop-non-german",
@@ -104,6 +112,7 @@
     ]
   },
   {
+    "scale": "scale",
     "model": "penalized_logreg",
     "exclude_features": "none",
     "exclude_subgroups": "keep-all",
@@ -117,6 +126,7 @@
     ]
   },
   {
+    "scale": "scale",
     "model": "penalized_logreg",
     "exclude_features": "none",
     "exclude_subgroups": "drop-non-german",
@@ -130,6 +140,7 @@
     ]
   },
   {
+    "scale": "scale",
     "model": "penalized_logreg",
     "exclude_features": "nationality",
     "exclude_subgroups": "keep-all",
@@ -143,6 +154,7 @@
     ]
   },
   {
+    "scale": "scale",
     "model": "penalized_logreg",
     "exclude_features": "nationality",
     "exclude_subgroups": "drop-non-german",
@@ -156,6 +168,7 @@
     ]
   },
   {
+    "scale": "scale",
     "model": "penalized_logreg",
     "exclude_features": "sex",
     "exclude_subgroups": "keep-all",
@@ -169,6 +182,7 @@
     ]
   },
   {
+    "scale": "scale",
     "model": "penalized_logreg",
     "exclude_features": "sex",
     "exclude_subgroups": "drop-non-german",
@@ -182,6 +196,7 @@
     ]
   },
   {
+    "scale": "scale",
     "model": "penalized_logreg",
     "exclude_features": "nationality-sex",
     "exclude_subgroups": "keep-all",
@@ -195,6 +210,7 @@
     ]
   },
   {
+    "scale": "scale",
     "model": "penalized_logreg",
     "exclude_features": "nationality-sex",
     "exclude_subgroups": "drop-non-german",
@@ -208,6 +224,7 @@
     ]
   },
   {
+    "scale": "scale",
     "model": "rf",
     "exclude_features": "none",
     "exclude_subgroups": "keep-all",
@@ -221,6 +238,7 @@
     ]
   },
   {
+    "scale": "scale",
     "model": "rf",
     "exclude_features": "none",
     "exclude_subgroups": "drop-non-german",
@@ -234,6 +252,7 @@
     ]
   },
   {
+    "scale": "scale",
     "model": "rf",
     "exclude_features": "nationality",
     "exclude_subgroups": "keep-all",
@@ -247,6 +266,7 @@
     ]
   },
   {
+    "scale": "scale",
     "model": "rf",
     "exclude_features": "nationality",
     "exclude_subgroups": "drop-non-german",
@@ -260,6 +280,7 @@
     ]
   },
   {
+    "scale": "scale",
     "model": "rf",
     "exclude_features": "sex",
     "exclude_subgroups": "keep-all",
@@ -273,6 +294,7 @@
     ]
   },
   {
+    "scale": "scale",
     "model": "rf",
     "exclude_features": "sex",
     "exclude_subgroups": "drop-non-german",
@@ -286,6 +308,7 @@
     ]
   },
   {
+    "scale": "scale",
     "model": "rf",
     "exclude_features": "nationality-sex",
     "exclude_subgroups": "keep-all",
@@ -299,6 +322,7 @@
     ]
   },
   {
+    "scale": "scale",
     "model": "rf",
     "exclude_features": "nationality-sex",
     "exclude_subgroups": "drop-non-german",
@@ -312,6 +336,7 @@
     ]
   },
   {
+    "scale": "scale",
     "model": "gbm",
     "exclude_features": "none",
     "exclude_subgroups": "keep-all",
@@ -325,6 +350,7 @@
     ]
   },
   {
+    "scale": "scale",
     "model": "gbm",
     "exclude_features": "none",
     "exclude_subgroups": "drop-non-german",
@@ -338,6 +364,7 @@
     ]
   },
   {
+    "scale": "scale",
     "model": "gbm",
     "exclude_features": "nationality",
     "exclude_subgroups": "keep-all",
@@ -351,6 +378,7 @@
     ]
   },
   {
+    "scale": "scale",
     "model": "gbm",
     "exclude_features": "nationality",
     "exclude_subgroups": "drop-non-german",
@@ -364,6 +392,7 @@
     ]
   },
   {
+    "scale": "scale",
     "model": "gbm",
     "exclude_features": "sex",
     "exclude_subgroups": "keep-all",
@@ -377,6 +406,7 @@
     ]
   },
   {
+    "scale": "scale",
     "model": "gbm",
     "exclude_features": "sex",
     "exclude_subgroups": "drop-non-german",
@@ -390,6 +420,7 @@
     ]
   },
   {
+    "scale": "scale",
     "model": "gbm",
     "exclude_features": "nationality-sex",
     "exclude_subgroups": "keep-all",
@@ -403,6 +434,7 @@
     ]
   },
   {
+    "scale": "scale",
     "model": "gbm",
     "exclude_features": "nationality-sex",
     "exclude_subgroups": "drop-non-german",
@@ -416,6 +448,7 @@
     ]
   },
   {
+    "scale": "scale",
     "model": "elasticnet",
     "exclude_features": "none",
     "exclude_subgroups": "keep-all",
@@ -429,6 +462,7 @@
     ]
   },
   {
+    "scale": "scale",
     "model": "elasticnet",
     "exclude_features": "none",
     "exclude_subgroups": "drop-non-german",
@@ -442,6 +476,7 @@
     ]
   },
   {
+    "scale": "scale",
     "model": "elasticnet",
     "exclude_features": "nationality",
     "exclude_subgroups": "keep-all",
@@ -455,6 +490,7 @@
     ]
   },
   {
+    "scale": "scale",
     "model": "elasticnet",
     "exclude_features": "nationality",
     "exclude_subgroups": "drop-non-german",
@@ -468,6 +504,7 @@
     ]
   },
   {
+    "scale": "scale",
     "model": "elasticnet",
     "exclude_features": "sex",
     "exclude_subgroups": "keep-all",
@@ -481,6 +518,7 @@
     ]
   },
   {
+    "scale": "scale",
     "model": "elasticnet",
     "exclude_features": "sex",
     "exclude_subgroups": "drop-non-german",
@@ -494,6 +532,7 @@
     ]
   },
   {
+    "scale": "scale",
     "model": "elasticnet",
     "exclude_features": "nationality-sex",
     "exclude_subgroups": "keep-all",
@@ -507,6 +546,567 @@
     ]
   },
   {
+    "scale": "scale",
+    "model": "elasticnet",
+    "exclude_features": "nationality-sex",
+    "exclude_subgroups": "drop-non-german",
+    "eval_fairness_grouping": [
+      "majority-minority",
+      "nationality-all"
+    ],
+    "cutoff": [
+      "quantile_0.1",
+      "quantile_0.25"
+    ]
+  },
+  {
+    "scale": "do-not-scale",
+    "model": "logreg",
+    "exclude_features": "none",
+    "exclude_subgroups": "keep-all",
+    "eval_fairness_grouping": [
+      "majority-minority",
+      "nationality-all"
+    ],
+    "cutoff": [
+      "quantile_0.1",
+      "quantile_0.25"
+    ]
+  },
+  {
+    "scale": "do-not-scale",
+    "model": "logreg",
+    "exclude_features": "none",
+    "exclude_subgroups": "drop-non-german",
+    "eval_fairness_grouping": [
+      "majority-minority",
+      "nationality-all"
+    ],
+    "cutoff": [
+      "quantile_0.1",
+      "quantile_0.25"
+    ]
+  },
+  {
+    "scale": "do-not-scale",
+    "model": "logreg",
+    "exclude_features": "nationality",
+    "exclude_subgroups": "keep-all",
+    "eval_fairness_grouping": [
+      "majority-minority",
+      "nationality-all"
+    ],
+    "cutoff": [
+      "quantile_0.1",
+      "quantile_0.25"
+    ]
+  },
+  {
+    "scale": "do-not-scale",
+    "model": "logreg",
+    "exclude_features": "nationality",
+    "exclude_subgroups": "drop-non-german",
+    "eval_fairness_grouping": [
+      "majority-minority",
+      "nationality-all"
+    ],
+    "cutoff": [
+      "quantile_0.1",
+      "quantile_0.25"
+    ]
+  },
+  {
+    "scale": "do-not-scale",
+    "model": "logreg",
+    "exclude_features": "sex",
+    "exclude_subgroups": "keep-all",
+    "eval_fairness_grouping": [
+      "majority-minority",
+      "nationality-all"
+    ],
+    "cutoff": [
+      "quantile_0.1",
+      "quantile_0.25"
+    ]
+  },
+  {
+    "scale": "do-not-scale",
+    "model": "logreg",
+    "exclude_features": "sex",
+    "exclude_subgroups": "drop-non-german",
+    "eval_fairness_grouping": [
+      "majority-minority",
+      "nationality-all"
+    ],
+    "cutoff": [
+      "quantile_0.1",
+      "quantile_0.25"
+    ]
+  },
+  {
+    "scale": "do-not-scale",
+    "model": "logreg",
+    "exclude_features": "nationality-sex",
+    "exclude_subgroups": "keep-all",
+    "eval_fairness_grouping": [
+      "majority-minority",
+      "nationality-all"
+    ],
+    "cutoff": [
+      "quantile_0.1",
+      "quantile_0.25"
+    ]
+  },
+  {
+    "scale": "do-not-scale",
+    "model": "logreg",
+    "exclude_features": "nationality-sex",
+    "exclude_subgroups": "drop-non-german",
+    "eval_fairness_grouping": [
+      "majority-minority",
+      "nationality-all"
+    ],
+    "cutoff": [
+      "quantile_0.1",
+      "quantile_0.25"
+    ]
+  },
+  {
+    "scale": "do-not-scale",
+    "model": "penalized_logreg",
+    "exclude_features": "none",
+    "exclude_subgroups": "keep-all",
+    "eval_fairness_grouping": [
+      "majority-minority",
+      "nationality-all"
+    ],
+    "cutoff": [
+      "quantile_0.1",
+      "quantile_0.25"
+    ]
+  },
+  {
+    "scale": "do-not-scale",
+    "model": "penalized_logreg",
+    "exclude_features": "none",
+    "exclude_subgroups": "drop-non-german",
+    "eval_fairness_grouping": [
+      "majority-minority",
+      "nationality-all"
+    ],
+    "cutoff": [
+      "quantile_0.1",
+      "quantile_0.25"
+    ]
+  },
+  {
+    "scale": "do-not-scale",
+    "model": "penalized_logreg",
+    "exclude_features": "nationality",
+    "exclude_subgroups": "keep-all",
+    "eval_fairness_grouping": [
+      "majority-minority",
+      "nationality-all"
+    ],
+    "cutoff": [
+      "quantile_0.1",
+      "quantile_0.25"
+    ]
+  },
+  {
+    "scale": "do-not-scale",
+    "model": "penalized_logreg",
+    "exclude_features": "nationality",
+    "exclude_subgroups": "drop-non-german",
+    "eval_fairness_grouping": [
+      "majority-minority",
+      "nationality-all"
+    ],
+    "cutoff": [
+      "quantile_0.1",
+      "quantile_0.25"
+    ]
+  },
+  {
+    "scale": "do-not-scale",
+    "model": "penalized_logreg",
+    "exclude_features": "sex",
+    "exclude_subgroups": "keep-all",
+    "eval_fairness_grouping": [
+      "majority-minority",
+      "nationality-all"
+    ],
+    "cutoff": [
+      "quantile_0.1",
+      "quantile_0.25"
+    ]
+  },
+  {
+    "scale": "do-not-scale",
+    "model": "penalized_logreg",
+    "exclude_features": "sex",
+    "exclude_subgroups": "drop-non-german",
+    "eval_fairness_grouping": [
+      "majority-minority",
+      "nationality-all"
+    ],
+    "cutoff": [
+      "quantile_0.1",
+      "quantile_0.25"
+    ]
+  },
+  {
+    "scale": "do-not-scale",
+    "model": "penalized_logreg",
+    "exclude_features": "nationality-sex",
+    "exclude_subgroups": "keep-all",
+    "eval_fairness_grouping": [
+      "majority-minority",
+      "nationality-all"
+    ],
+    "cutoff": [
+      "quantile_0.1",
+      "quantile_0.25"
+    ]
+  },
+  {
+    "scale": "do-not-scale",
+    "model": "penalized_logreg",
+    "exclude_features": "nationality-sex",
+    "exclude_subgroups": "drop-non-german",
+    "eval_fairness_grouping": [
+      "majority-minority",
+      "nationality-all"
+    ],
+    "cutoff": [
+      "quantile_0.1",
+      "quantile_0.25"
+    ]
+  },
+  {
+    "scale": "do-not-scale",
+    "model": "rf",
+    "exclude_features": "none",
+    "exclude_subgroups": "keep-all",
+    "eval_fairness_grouping": [
+      "majority-minority",
+      "nationality-all"
+    ],
+    "cutoff": [
+      "quantile_0.1",
+      "quantile_0.25"
+    ]
+  },
+  {
+    "scale": "do-not-scale",
+    "model": "rf",
+    "exclude_features": "none",
+    "exclude_subgroups": "drop-non-german",
+    "eval_fairness_grouping": [
+      "majority-minority",
+      "nationality-all"
+    ],
+    "cutoff": [
+      "quantile_0.1",
+      "quantile_0.25"
+    ]
+  },
+  {
+    "scale": "do-not-scale",
+    "model": "rf",
+    "exclude_features": "nationality",
+    "exclude_subgroups": "keep-all",
+    "eval_fairness_grouping": [
+      "majority-minority",
+      "nationality-all"
+    ],
+    "cutoff": [
+      "quantile_0.1",
+      "quantile_0.25"
+    ]
+  },
+  {
+    "scale": "do-not-scale",
+    "model": "rf",
+    "exclude_features": "nationality",
+    "exclude_subgroups": "drop-non-german",
+    "eval_fairness_grouping": [
+      "majority-minority",
+      "nationality-all"
+    ],
+    "cutoff": [
+      "quantile_0.1",
+      "quantile_0.25"
+    ]
+  },
+  {
+    "scale": "do-not-scale",
+    "model": "rf",
+    "exclude_features": "sex",
+    "exclude_subgroups": "keep-all",
+    "eval_fairness_grouping": [
+      "majority-minority",
+      "nationality-all"
+    ],
+    "cutoff": [
+      "quantile_0.1",
+      "quantile_0.25"
+    ]
+  },
+  {
+    "scale": "do-not-scale",
+    "model": "rf",
+    "exclude_features": "sex",
+    "exclude_subgroups": "drop-non-german",
+    "eval_fairness_grouping": [
+      "majority-minority",
+      "nationality-all"
+    ],
+    "cutoff": [
+      "quantile_0.1",
+      "quantile_0.25"
+    ]
+  },
+  {
+    "scale": "do-not-scale",
+    "model": "rf",
+    "exclude_features": "nationality-sex",
+    "exclude_subgroups": "keep-all",
+    "eval_fairness_grouping": [
+      "majority-minority",
+      "nationality-all"
+    ],
+    "cutoff": [
+      "quantile_0.1",
+      "quantile_0.25"
+    ]
+  },
+  {
+    "scale": "do-not-scale",
+    "model": "rf",
+    "exclude_features": "nationality-sex",
+    "exclude_subgroups": "drop-non-german",
+    "eval_fairness_grouping": [
+      "majority-minority",
+      "nationality-all"
+    ],
+    "cutoff": [
+      "quantile_0.1",
+      "quantile_0.25"
+    ]
+  },
+  {
+    "scale": "do-not-scale",
+    "model": "gbm",
+    "exclude_features": "none",
+    "exclude_subgroups": "keep-all",
+    "eval_fairness_grouping": [
+      "majority-minority",
+      "nationality-all"
+    ],
+    "cutoff": [
+      "quantile_0.1",
+      "quantile_0.25"
+    ]
+  },
+  {
+    "scale": "do-not-scale",
+    "model": "gbm",
+    "exclude_features": "none",
+    "exclude_subgroups": "drop-non-german",
+    "eval_fairness_grouping": [
+      "majority-minority",
+      "nationality-all"
+    ],
+    "cutoff": [
+      "quantile_0.1",
+      "quantile_0.25"
+    ]
+  },
+  {
+    "scale": "do-not-scale",
+    "model": "gbm",
+    "exclude_features": "nationality",
+    "exclude_subgroups": "keep-all",
+    "eval_fairness_grouping": [
+      "majority-minority",
+      "nationality-all"
+    ],
+    "cutoff": [
+      "quantile_0.1",
+      "quantile_0.25"
+    ]
+  },
+  {
+    "scale": "do-not-scale",
+    "model": "gbm",
+    "exclude_features": "nationality",
+    "exclude_subgroups": "drop-non-german",
+    "eval_fairness_grouping": [
+      "majority-minority",
+      "nationality-all"
+    ],
+    "cutoff": [
+      "quantile_0.1",
+      "quantile_0.25"
+    ]
+  },
+  {
+    "scale": "do-not-scale",
+    "model": "gbm",
+    "exclude_features": "sex",
+    "exclude_subgroups": "keep-all",
+    "eval_fairness_grouping": [
+      "majority-minority",
+      "nationality-all"
+    ],
+    "cutoff": [
+      "quantile_0.1",
+      "quantile_0.25"
+    ]
+  },
+  {
+    "scale": "do-not-scale",
+    "model": "gbm",
+    "exclude_features": "sex",
+    "exclude_subgroups": "drop-non-german",
+    "eval_fairness_grouping": [
+      "majority-minority",
+      "nationality-all"
+    ],
+    "cutoff": [
+      "quantile_0.1",
+      "quantile_0.25"
+    ]
+  },
+  {
+    "scale": "do-not-scale",
+    "model": "gbm",
+    "exclude_features": "nationality-sex",
+    "exclude_subgroups": "keep-all",
+    "eval_fairness_grouping": [
+      "majority-minority",
+      "nationality-all"
+    ],
+    "cutoff": [
+      "quantile_0.1",
+      "quantile_0.25"
+    ]
+  },
+  {
+    "scale": "do-not-scale",
+    "model": "gbm",
+    "exclude_features": "nationality-sex",
+    "exclude_subgroups": "drop-non-german",
+    "eval_fairness_grouping": [
+      "majority-minority",
+      "nationality-all"
+    ],
+    "cutoff": [
+      "quantile_0.1",
+      "quantile_0.25"
+    ]
+  },
+  {
+    "scale": "do-not-scale",
+    "model": "elasticnet",
+    "exclude_features": "none",
+    "exclude_subgroups": "keep-all",
+    "eval_fairness_grouping": [
+      "majority-minority",
+      "nationality-all"
+    ],
+    "cutoff": [
+      "quantile_0.1",
+      "quantile_0.25"
+    ]
+  },
+  {
+    "scale": "do-not-scale",
+    "model": "elasticnet",
+    "exclude_features": "none",
+    "exclude_subgroups": "drop-non-german",
+    "eval_fairness_grouping": [
+      "majority-minority",
+      "nationality-all"
+    ],
+    "cutoff": [
+      "quantile_0.1",
+      "quantile_0.25"
+    ]
+  },
+  {
+    "scale": "do-not-scale",
+    "model": "elasticnet",
+    "exclude_features": "nationality",
+    "exclude_subgroups": "keep-all",
+    "eval_fairness_grouping": [
+      "majority-minority",
+      "nationality-all"
+    ],
+    "cutoff": [
+      "quantile_0.1",
+      "quantile_0.25"
+    ]
+  },
+  {
+    "scale": "do-not-scale",
+    "model": "elasticnet",
+    "exclude_features": "nationality",
+    "exclude_subgroups": "drop-non-german",
+    "eval_fairness_grouping": [
+      "majority-minority",
+      "nationality-all"
+    ],
+    "cutoff": [
+      "quantile_0.1",
+      "quantile_0.25"
+    ]
+  },
+  {
+    "scale": "do-not-scale",
+    "model": "elasticnet",
+    "exclude_features": "sex",
+    "exclude_subgroups": "keep-all",
+    "eval_fairness_grouping": [
+      "majority-minority",
+      "nationality-all"
+    ],
+    "cutoff": [
+      "quantile_0.1",
+      "quantile_0.25"
+    ]
+  },
+  {
+    "scale": "do-not-scale",
+    "model": "elasticnet",
+    "exclude_features": "sex",
+    "exclude_subgroups": "drop-non-german",
+    "eval_fairness_grouping": [
+      "majority-minority",
+      "nationality-all"
+    ],
+    "cutoff": [
+      "quantile_0.1",
+      "quantile_0.25"
+    ]
+  },
+  {
+    "scale": "do-not-scale",
+    "model": "elasticnet",
+    "exclude_features": "nationality-sex",
+    "exclude_subgroups": "keep-all",
+    "eval_fairness_grouping": [
+      "majority-minority",
+      "nationality-all"
+    ],
+    "cutoff": [
+      "quantile_0.1",
+      "quantile_0.25"
+    ]
+  },
+  {
+    "scale": "do-not-scale",
     "model": "elasticnet",
     "exclude_features": "nationality-sex",
     "exclude_subgroups": "drop-non-german",
