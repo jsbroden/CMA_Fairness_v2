@@ -50,6 +50,7 @@ multiverse_analysis = MultiverseAnalysis(
             "nationality",
             "sex",
             "nationality-sex",
+            "age",
         ],
         "exclude_subgroups": [
             "keep-all",
