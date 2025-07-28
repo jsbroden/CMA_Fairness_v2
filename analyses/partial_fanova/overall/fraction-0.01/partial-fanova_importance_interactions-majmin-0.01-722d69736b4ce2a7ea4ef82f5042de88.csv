@@ -1,0 +1,8 @@
+,level_0,level_1,level_2,individual importance,total importance,individual std,total std
+0,universe_exclude_features,,,0.5170492623994472,0.5170492623994472,0.4362101764547726,0.4362101764547726
+1,universe_exclude_subgroups,,,0.3776811567000856,0.3776811567000856,0.42139081890193525,0.42139081890193525
+3,universe_exclude_features,universe_exclude_subgroups,,0.1052695809004699,1.0000000000000024,0.17024214788978373,4.885071423024748e-15
+2,universe_model,,,0.0,0.0,0.0,0.0
+4,universe_exclude_features,universe_model,,0.0,0.5170492623994472,0.0,0.4362101764547726
+5,universe_exclude_subgroups,universe_model,,0.0,0.3776811567000856,0.0,0.42139081890193525
+6,universe_exclude_features,universe_exclude_subgroups,universe_model,0.0,1.0000000000000024,0.0,4.885071423024748e-15

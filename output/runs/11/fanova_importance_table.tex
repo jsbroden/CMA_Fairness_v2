@@ -1,0 +1,42 @@
+\begin{table}
+\centering
+\caption{fANOVA Importance and Interaction Effects}
+\label{tab:fanova_importance}
+\begin{tabular}{llllrrrr}
+\toprule
+                   level_0 &                    level_1 &                level_2 &                level_3 &                level_4 & individual importance & total importance & individual std & total std \\
+\midrule
+    universe_training_size &                            &                        &                        &                        &                0.3299 &           0.3299 &         0.0204 &    0.0204 \\
+            universe_model &                            &                        &                        &                        &                0.1993 &           0.1993 &         0.0091 &    0.0091 \\
+            universe_scale &                            &                        &                        &                        &                0.1173 &           0.1173 &         0.0072 &    0.0072 \\
+            universe_model &             universe_scale &                        &                        &                        &                0.0950 &           0.4116 &         0.0059 &    0.0105 \\
+            universe_model &     universe_training_size &                        &                        &                        &                0.0728 &           0.6020 &         0.0152 &    0.0305 \\
+            universe_model &             universe_scale & universe_training_size &                        &                        &                0.0374 &           0.8788 &         0.0051 &    0.0371 \\
+ universe_exclude_features &                            &                        &                        &                        &                0.0277 &           0.0277 &         0.0055 &    0.0055 \\
+            universe_scale &     universe_training_size &                        &                        &                        &                0.0271 &           0.4743 &         0.0040 &    0.0225 \\
+ universe_exclude_features &             universe_scale &                        &                        &                        &                0.0195 &           0.1645 &         0.0043 &    0.0147 \\
+ universe_exclude_features &             universe_model &                        &                        &                        &                0.0158 &           0.2428 &         0.0085 &    0.0141 \\
+ universe_exclude_features &             universe_model &         universe_scale &                        &                        &                0.0150 &           0.4897 &         0.0081 &    0.0222 \\
+ universe_exclude_features &             universe_model & universe_training_size &                        &                        &                0.0074 &           0.6557 &         0.0045 &    0.0168 \\
+ universe_exclude_features &             universe_model &         universe_scale & universe_training_size &                        &                0.0049 &           0.9751 &         0.0024 &    0.0162 \\
+ universe_exclude_features &             universe_scale & universe_training_size &                        &                        &                0.0032 &           0.5275 &         0.0026 &    0.0198 \\
+ universe_exclude_features &     universe_training_size &                        &                        &                        &                0.0027 &           0.3604 &         0.0045 &    0.0171 \\
+universe_exclude_subgroups &                            &                        &                        &                        &                0.0026 &           0.0026 &         0.0015 &    0.0015 \\
+universe_exclude_subgroups &             universe_model &         universe_scale &                        &                        &                0.0023 &           0.4194 &         0.0024 &    0.0099 \\
+ universe_exclude_features & universe_exclude_subgroups &         universe_model &                        &                        &                0.0021 &           0.2497 &         0.0023 &    0.0162 \\
+ universe_exclude_features & universe_exclude_subgroups &         universe_model & universe_training_size &                        &                0.0021 &           0.6686 &         0.0013 &    0.0124 \\
+ universe_exclude_features & universe_exclude_subgroups &         universe_model &         universe_scale & universe_training_size &                0.0021 &           1.0000 &         0.0016 &    0.0000 \\
+ universe_exclude_features & universe_exclude_subgroups &         universe_model &         universe_scale &                        &                0.0021 &           0.5037 &         0.0030 &    0.0277 \\
+universe_exclude_subgroups &             universe_scale &                        &                        &                        &                0.0020 &           0.1219 &         0.0010 &    0.0083 \\
+universe_exclude_subgroups &             universe_model & universe_training_size &                        &                        &                0.0018 &           0.6083 &         0.0021 &    0.0304 \\
+universe_exclude_subgroups &             universe_model &         universe_scale & universe_training_size &                        &                0.0015 &           0.8914 &         0.0021 &    0.0338 \\
+ universe_exclude_features & universe_exclude_subgroups &                        &                        &                        &                0.0013 &           0.0316 &         0.0025 &    0.0069 \\
+ universe_exclude_features & universe_exclude_subgroups & universe_training_size &                        &                        &                0.0011 &           0.3664 &         0.0011 &    0.0159 \\
+universe_exclude_subgroups &     universe_training_size &                        &                        &                        &                0.0010 &           0.3335 &         0.0006 &    0.0209 \\
+ universe_exclude_features & universe_exclude_subgroups &         universe_scale &                        &                        &                0.0009 &           0.1713 &         0.0013 &    0.0169 \\
+universe_exclude_subgroups &             universe_model &                        &                        &                        &                0.0008 &           0.2027 &         0.0005 &    0.0085 \\
+ universe_exclude_features & universe_exclude_subgroups &         universe_scale & universe_training_size &                        &                0.0007 &           0.5375 &         0.0007 &    0.0200 \\
+universe_exclude_subgroups &             universe_scale & universe_training_size &                        &                        &                0.0005 &           0.4804 &         0.0003 &    0.0231 \\
+\bottomrule
+\end{tabular}
+\end{table}
