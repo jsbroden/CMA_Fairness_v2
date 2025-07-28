@@ -1,0 +1,2 @@
+universe_id,universe_model,universe_exclude_features,universe_exclude_subgroups,q_hat,coverage,avg_size
+338397ae0ea0b5f086116cbd3197dacc,rf,nationality,drop-non-german,0.79,0.9572399955411883,1.3607178686879946

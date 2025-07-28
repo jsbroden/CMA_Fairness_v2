@@ -1,0 +1,2 @@
+universe_id,universe_model,universe_exclude_features,universe_exclude_subgroups,q_hat,coverage,avg_size
+a1534888820cbfa843f49d2b4ef2514e,logreg,nationality,drop-non-german,0.836828074017718,0.955255824322818,1.4590458142904916
