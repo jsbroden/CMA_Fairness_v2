@@ -1,15 +1,21 @@
-name: Create and publish Docker image
+name: DISABLED - Create and publish Docker image
+
+on:
+  push:
+    paths-ignore:
+      - '**'
+  workflow_dispatch: false
 
 # Configures this workflow to run every time a change is pushed to the branch called `release`.
-on:
+#on:
   # Run manually
-  workflow_dispatch:
+#  workflow_dispatch:
   # Run whenever python code or the Dockerfile changes
-  push:
-    paths:
-      - '**.py'
-      - '**.ipynb'
-      - 'Dockerfile'
+#  push:
+#    paths:
+#      - '**.py'
+#      - '**.ipynb'
+#      - 'Dockerfile'
 
 env:
   REGISTRY: ghcr.io
