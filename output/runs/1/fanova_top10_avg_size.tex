@@ -1,0 +1,21 @@
+\begin{table}
+\centering
+\caption{The 10 most important decisions or decision interactions and their relative importance for the average prediction set size.}
+\label{tab:fanova_top10}
+\begin{tabular}{llrr}
+\toprule
+Effect Type &                                      Decision / Interaction of Decisions &  Importance &  Std. Deviation \\
+\midrule
+       main &                                                           \textit{Model} &       0.312 &           0.003 \\
+       main &                                                           \textit{Scale} &       0.191 &           0.003 \\
+       main &                                                    \textit{TrainingSize} &       0.177 &           0.004 \\
+ 2-way int. &                                   \textit{Model} $\times$ \textit{Scale} &       0.170 &           0.002 \\
+ 2-way int. &                            \textit{Model} $\times$ \textit{TrainingSize} &       0.034 &           0.002 \\
+ 2-way int. &                            \textit{Scale} $\times$ \textit{TrainingSize} &       0.032 &           0.002 \\
+ 3-way int. &    \textit{Model} $\times$ \textit{Scale} $\times$ \textit{TrainingSize} &       0.029 &           0.002 \\
+       main &                                                 \textit{ExcludeFeatures} &       0.006 &           0.001 \\
+ 3-way int. & \textit{ExcludeFeatures} $\times$ \textit{Model} $\times$ \textit{Scale} &       0.006 &           0.001 \\
+ 2-way int. &                         \textit{ExcludeFeatures} $\times$ \textit{Model} &       0.006 &           0.000 \\
+\bottomrule
+\end{tabular}
+\end{table}
