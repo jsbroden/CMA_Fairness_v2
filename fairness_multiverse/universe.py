@@ -51,6 +51,61 @@ def list_wrap(value: Any) -> List[Any]:
         return [value]
 
 
+def sample_by_year_size(df,
+                        training_year: str,
+                        training_size: str,
+                        random_state: int = 42):
+    # --- parse training_year into a list of int years ---
+    if "_" in training_year:
+        start_str, end_str = training_year.split("_", 1)
+        start = int(start_str)
+        end   = int(end_str) if len(end_str) == 4 else (int(end_str) + (start // 100)*100)
+        years = list(range(start, end + 1))
+    else:
+        years = [int(training_year)]
+
+    df = df[df["year"].isin(years)].reset_index(drop=True)
+
+    # --- map training_size to total number of samples ---
+    total_map = {"25k": 25_000, "5k": 5_000, "1k": 1_000}
+    if training_size not in total_map:
+        return df  # e.g. "all"
+
+    total_samples = total_map[training_size]
+    n_years       = len(years)
+    base          = total_samples // n_years
+    remainder     = total_samples % n_years
+
+    # --- build a dict: year -> how many to sample ---
+    # give +1 to the first `remainder` years in ascending order
+    quotas = {
+        year: base + (1 if idx < remainder else 0)
+        for idx, year in enumerate(sorted(years))
+    }
+
+    # --- sample per‐year according to the quota dict ---
+    sampled = (
+        df
+        .groupby("year", group_keys=False)
+        .apply(lambda grp: grp.sample(
+            n=min(len(grp), quotas[grp.name]),
+            random_state=random_state))
+        .reset_index(drop=True)
+    )
+
+    return sampled
+
+
+def flatten_once(mixed_list):
+    flat = []
+    for item in mixed_list:
+        if isinstance(item, (list, tuple)):
+            flat.extend(item)
+        else:
+            flat.append(item)
+    return flat
+    
+
 # Modified version of pandas.cut, that also supports DataFrames instead of just Series
 def cut_df(df, **kwargs) -> pd.DataFrame:
     # Adapted from https://datascience.stackexchange.com/questions/75787/how-to-use-columntransformer-and-functiontransformer-to-apply-the-same-function
