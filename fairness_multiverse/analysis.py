@@ -35,6 +35,7 @@ class MultiverseFanova:
         self.configuration_space = self.generate_configuration_space()
         self.fanova = self.init_fanova()
 
+
     def process_features(self, features: pd.DataFrame) -> pd.DataFrame:
         """
         Preprocesses a set of features for a fANOVA analysis.
@@ -133,3 +134,4 @@ class MultiverseFanova:
             df_main_effects.to_csv(df_main_effects)
 
         return df_main_effects
+
