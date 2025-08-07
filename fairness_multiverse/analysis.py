@@ -134,4 +134,3 @@ class MultiverseFanova:
             df_main_effects.to_csv(df_main_effects)
 
         return df_main_effects
-
