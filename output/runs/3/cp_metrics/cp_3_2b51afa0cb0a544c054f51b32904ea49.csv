@@ -1,2 +1,0 @@
-universe_id,universe_training_year,universe_training_size,universe_scale,universe_model,universe_exclude_features,universe_exclude_subgroups,q_hat,coverage,avg_size,cov_frau1,cov_nongerman,cov_nongerman_male,cov_nongerman_female
-2b51afa0cb0a544c054f51b32904ea49,2014,25k,do-not-scale,rf,nationality-sex,drop-non-german,0.6599999999999999,0.9149147252257274,1.1468955523353026,0.9148133171586467,0.9159041149722114,0.9286679275871386,0.8947839046199701
