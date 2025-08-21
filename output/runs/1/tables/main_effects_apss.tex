@@ -1,0 +1,21 @@
+\begin{table}
+\centering
+\caption{Main effects (no interactions) from Lasso for Average Prediction Set Size (APSS). Coefficients are contrasts against the baseline: Training period=2010–14; Training size=1k; Scaling=Scaled; Model=Logistic Regression; Excluded features=none; Subgroups=keep all. }
+\label{tab:main_effects_apss}
+\begin{tabular}{l r}
+\toprule
+                  Design Decision & Coefficient \\
+\midrule
+               Training size: 25k &      -0.051 \\
+                       Model: GBM &      -0.051 \\
+            Scaling: Do-Not-Scale &      +0.047 \\
+             Model: Random Forest &      -0.043 \\
+                Training size: 5k &      -0.041 \\
+               Model: Elastic Net &      +0.027 \\
+             Exclude Features Age &      +0.011 \\
+Exclude Subgroups Drop-Non-German &      +0.005 \\
+            Training period: 2014 &      -0.003 \\
+         Training period: 2012–14 &      -0.001 \\
+\bottomrule
+\end{tabular}
+\end{table}

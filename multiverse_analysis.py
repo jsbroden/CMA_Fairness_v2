@@ -42,7 +42,8 @@ args = parser.parse_args()
 
 multiverse_analysis = MultiverseAnalysis(
     dimensions={
-        "training_size": ["25k", "5k", "1k", "2014"],
+        "training_size": ["25k", "5k", "1k"],
+        "training_year": ["2014", "2012_14", "2010_14"],
         "scale": ["scale", "do-not-scale"],
         # "encode_categorical": ["ordinal", "one-hot"],
         "model": ["logreg", "penalized_logreg", "rf", "gbm", "elasticnet"],
