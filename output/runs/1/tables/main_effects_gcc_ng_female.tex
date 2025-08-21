@@ -1,0 +1,21 @@
+\begin{table}
+\centering
+\caption{Top 10 main effects (no interactions) from Lasso for Group-Conditional Coverage (Non-German females). Coefficients are contrasts against the baseline: Training period=2010–14; Training size=1k; Scaling=Scaled; Model=Logistic Regression; Excluded features=none; Subgroups=keep all. Nominal target coverage is 90\%.}
+\label{tab:main_effects_gcc_ng_female}
+\begin{tabular}{l r}
+\toprule
+                  Design Decision & Coefficient \\
+\midrule
+            Scaling: Do-Not-Scale &      +0.028 \\
+                       Model: GBM &      -0.020 \\
+             Model: Random Forest &      -0.019 \\
+               Model: Elastic Net &      +0.016 \\
+             Exclude Features Age &      +0.006 \\
+         Training period: 2012–14 &      -0.002 \\
+            Training period: 2014 &      -0.002 \\
+               Training size: 25k &      +0.001 \\
+Exclude Subgroups Drop-Non-German &      +0.001 \\
+                Training size: 5k &      -0.000 \\
+\bottomrule
+\end{tabular}
+\end{table}
